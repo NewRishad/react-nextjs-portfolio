@@ -7,7 +7,8 @@ export const HeroSection = () => {
   return (
     <div className="py-32 md:py-48 lg:py-60 relative z-0">
       <div className="absolute inset-0 -z-30 opacity-5" style={{backgroundImage: `url(${GrainImage.src})`}}></div>
-      <div className="absolute inset-0 size"></div>
+      {/* I left off here */}
+      <div className="absolute inset-0"></div>
       <div className="container">
         <div className="flex flex-col items-center">
           <Image
