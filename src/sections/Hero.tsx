@@ -5,10 +5,12 @@ import GrainImage from "@/assets/images/grain.jpg"
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0">
+    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
       <div className="absolute inset-0 -z-30 opacity-5" style={{backgroundImage: `url(${GrainImage.src})`}}></div>
-      {/* I left off here */}
-      <div className="absolute inset-0"></div>
+      <div className="size-[620px] hero-ring"></div>
+      <div className="size-[820px] hero-ring"></div>
+      <div className="size-[1020px] hero-ring"></div>
+      <div className="size-[1220px] hero-ring"></div>
       <div className="container">
         <div className="flex flex-col items-center">
           <Image
